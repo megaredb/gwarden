@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "gwarden",
+  "version": "${version}",
+  "name": "Gwarden",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/megaredb/Gwarden"
+  },
+  "license": "MIT",
+  "icon": "assets/gwarden/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.megared.gwarden.Gwarden"
+    ]
+  },
+  "mixins": [
+    "gwarden.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
